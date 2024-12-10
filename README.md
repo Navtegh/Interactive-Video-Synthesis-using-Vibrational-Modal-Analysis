@@ -1,5 +1,4 @@
 # Interactive Video Synthesis using Vibrational Modal Analysis
-## Navtegh Singh Gill, Stuti Wadhwa and Sehajpreet Kaur
 
 ### Introduction
 This is the README for our CSC2529: Computational Imaging project at University 
@@ -144,6 +143,10 @@ easier select it in the first video selection to avoid directory or file not fou
 We have two examples within the data directory 'Lukas Kanade + Simulation/tmp':
     - man: the wireman originally used by Abe in his 2015 paper
     - goodflower: A video of a flower moving in the wind
+
+## Other contributors:
+## Navtegh Singh Gill
+## Sehajpreet Kaur
 
 
 The video files are needed as starting points of the analysis pipeline. The modal shapes are
