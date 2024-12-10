@@ -144,10 +144,6 @@ We have two examples within the data directory 'Lukas Kanade + Simulation/tmp':
     - man: the wireman originally used by Abe in his 2015 paper
     - goodflower: A video of a flower moving in the wind
 
-## Other contributors:
-1. Navtegh Singh Gill
-2. Sehajpreet Kaur
-
 
 The video files are needed as starting points of the analysis pipeline. The modal shapes are
 generated data from the ModalShapeDrawer component, and is not entirely necessary
@@ -155,3 +151,7 @@ unless you want to directly run FrequencySelector and simulation without generat
 data through the analysis pipeline first. Otherwise the generated data files
 NAME-(fp|flowvec|fft|selected-fft).txt files are kept in tmp/ so that you can
 simply load those files without rerunning data generation.
+
+## Other contributors:
+1. Navtegh Singh Gill
+2. Sehajpreet Kaur
