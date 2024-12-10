@@ -62,26 +62,26 @@ that uses the current selected FFT file.
 
 After the entire analysis, the directory structure should look like:
 DIR 
-|--- frames <br />
-|______|--- goodflower1.png - goodflower150.png <br />
- |       |--- warped
- |                |--- goodflower1.png - goodflower336.png
- |-- xShape
- |       |--- goodflower-x-0.714286.png ...
- |-- yShape
- |       |--- goodflower-y-0.714286.png ...
- |-- goodflower-fp.txt // feature position file
- |-- goodflower-fft.txt // all frequency/mode file
- |-- goodflowerlk-fft.txt // all frequency/mode file for Lukas-Kanade method
- |-- goodflowerlkberthy-fft.txt // all frequency/mode file for our proposed method
- |-- goodflowerberthy-fft.txt // all frequency/mode file for CSP method
- |-- goodflowerraft-fft.txt // all frequency/mode file for Raft method
- |-- goodflower-selected-fft.txt // selected mode file
- |-- goodflowerlk-selected-fft.txt // selected mode file for Lukas-Kanade method
- |-- goodflowerlkberthy-selected-fft.txt // selected mode file for our proposed method
- |-- goodflowerberthy-selected-fft.txt // selected mode file for CSP method
- |-- goodflowerraft-selected-fft.txt // selected mode file for Raft method
- |-- goodflower-flowvec.txt // the displacements of feature points through time.
+ |--- frames <br />
+ |       |--- goodflower1.png - goodflower150.png <br />
+ |       |--- warped <br />
+ |                |--- goodflower1.png - goodflower336.png <br />
+ |-- xShape <br />
+ |       |--- goodflower-x-0.714286.png ... <br />
+ |-- yShape <br />
+ |       |--- goodflower-y-0.714286.png ... <br />
+ |-- goodflower-fp.txt // feature position file <br />
+ |-- goodflower-fft.txt // all frequency/mode file <br />
+ |-- goodflowerlk-fft.txt // all frequency/mode file for Lukas-Kanade method <br />
+ |-- goodflowerlkberthy-fft.txt // all frequency/mode file for our proposed method <br />
+ |-- goodflowerberthy-fft.txt // all frequency/mode file for CSP method <br />
+ |-- goodflowerraft-fft.txt // all frequency/mode file for Raft method <br />
+ |-- goodflower-selected-fft.txt // selected mode file <br />
+ |-- goodflowerlk-selected-fft.txt // selected mode file for Lukas-Kanade method <br />
+ |-- goodflowerlkberthy-selected-fft.txt // selected mode file for our proposed method <br />
+ |-- goodflowerberthy-selected-fft.txt // selected mode file for CSP method <br />
+ |-- goodflowerraft-selected-fft.txt // selected mode file for Raft method <br />
+ |-- goodflower-flowvec.txt // the displacements of feature points through time. <br />
  
 The above was to build basic files for simulation and Lukas Kanade methods. For the simulation 
 with other methods as well, goodflower-fft.txt can be generated using jupyter notebook files 
