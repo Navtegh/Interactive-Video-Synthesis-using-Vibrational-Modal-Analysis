@@ -145,8 +145,8 @@ We have two examples within the data directory 'Lukas Kanade + Simulation/tmp':
     - goodflower: A video of a flower moving in the wind
 
 ## Other contributors:
-# Navtegh Singh Gill
-# Sehajpreet Kaur
+1. Navtegh Singh Gill
+2. Sehajpreet Kaur
 
 
 The video files are needed as starting points of the analysis pipeline. The modal shapes are
