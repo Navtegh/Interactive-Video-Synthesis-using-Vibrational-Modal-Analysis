@@ -61,10 +61,10 @@ DIR/NAME-selected-fft.txt for each method. The Simulate button opens a window
 that uses the current selected FFT file.
 
 After the entire analysis, the directory structure should look like:
-DIR 
+DIR <br /> 
  |--- frames <br />
- |       |--- goodflower1.png - goodflower150.png <br />
- |       |--- warped <br />
+ |emsp       |--- goodflower1.png - goodflower150.png <br />
+ |emsp      |--- warped <br />
  |                |--- goodflower1.png - goodflower336.png <br />
  |-- xShape <br />
  |       |--- goodflower-x-0.714286.png ... <br />
