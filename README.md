@@ -62,8 +62,8 @@ that uses the current selected FFT file.
 
 After the entire analysis, the directory structure should look like:
 DIR 
-|--- frames
-|       |--- goodflower1.png - goodflower150.png
+|--- frames <br />
+|______|--- goodflower1.png - goodflower150.png <br />
  |       |--- warped
  |                |--- goodflower1.png - goodflower336.png
  |-- xShape
