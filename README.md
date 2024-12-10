@@ -15,6 +15,9 @@ and compiled libraries and they should be linked locally ( ModalAnalysis.pro
 for the Makefile).
 
 
+![flowchart](https://github.com/user-attachments/assets/01836598-612c-4042-a25a-5980ced75aed)
+
+
 ### Analysis Source Code
 The source code can be roughly divided into analysis and simulation. The analysis
 pipeline consists of:
