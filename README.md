@@ -156,5 +156,5 @@ NAME-(fp|flowvec|fft|selected-fft).txt files are kept in tmp/ so that you can
 simply load those files without rerunning data generation.
 
 ## Other contributors:
-1. Navtegh Singh Gill
+1. Stuti Wadhwa
 2. Sehajpreet Kaur
