@@ -63,13 +63,13 @@ that uses the current selected FFT file.
 After the entire analysis, the directory structure should look like:
 DIR <br /> 
  |--- frames <br />
- |&emsp;      |--- goodflower1.png - goodflower150.png <br />
- |&emsp;   |--- warped <br />
- |&emsp;     &emsp;            |--- goodflower1.png - goodflower336.png <br />
+ |&emsp;  &emsp;     |--- goodflower1.png - goodflower150.png <br />
+ |&emsp;  &emsp;  |--- warped <br />
+ |&emsp;     &emsp; &emsp; &emsp;             |--- goodflower1.png - goodflower336.png <br />
  |-- xShape <br />
- |    &emsp;    |--- goodflower-x-0.714286.png ... <br />
+ |    &emsp; &emsp;    |--- goodflower-x-0.714286.png ... <br />
  |-- yShape <br />
- |  &emsp;      |--- goodflower-y-0.714286.png ... <br />
+ |  &emsp;   &emsp;    |--- goodflower-y-0.714286.png ... <br />
  |-- goodflower-fp.txt // feature position file <br />
  |-- goodflower-fft.txt // all frequency/mode file <br />
  |-- goodflowerlk-fft.txt // all frequency/mode file for Lukas-Kanade method <br />
